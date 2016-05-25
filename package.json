@@ -30,7 +30,7 @@
       }
     },
     "dev": {
-      "command": "nodemon --exec babel-node bin/server",
+      "command": "nodemon --debug --exec babel-node bin/server",
       "env": {
         "NODE_ENV": "development",
         "DEBUG": "app:*"
